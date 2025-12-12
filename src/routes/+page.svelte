@@ -14,71 +14,71 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=600&auto=format&fit=crop", // Home yoga
+    "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=600&auto=format&fit=crop", // Strength training
+    "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=600&auto=format&fit=crop", // Gym workout
+    "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=600&auto=format&fit=crop", // Cardio
+    "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=600&auto=format&fit=crop", // HIIT
+    "https://images.unsplash.com/photo-1549576490-b0b4831ef60a?q=80&w=600&auto=format&fit=crop"  // Dance fitness
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Work out on your schedule.",
+      desc: "No gym commute needed. Stream workouts anytime, anywhere. Perfect for busy professionals who need flexibility.",
+      image: "https://images.unsplash.com/photo-1434682881908-b43d0467b798?q=80&w=800&auto=format&fit=crop"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Personalized to your level.",
+      desc: "Adaptive workouts that match your fitness journey. From beginner-friendly to advanced challenges.",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Real results, real guidance.",
+      desc: "Track your progress with integrated nutrition guidance. See your transformation with data-driven insights.",
+      image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
+      title: "Choose your plan.",
+      desc: "Start with a free 30-day trial. Pick between our Basic or Premium plans based on your fitness goals and preferred workout variety.",
       image: "plan"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
+      title: "Set your fitness level.",
+      desc: "Tell us about your current fitness level and goals. Our adaptive algorithm will personalize your workout recommendations.",
       image: "schedule"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
+      title: "Start your first workout.",
+      desc: "Browse our library of 500+ classes. Stream instantly on any device. Follow along with expert trainers who guide every movement.",
       image: "results"
     },
     {
       step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
+      title: "Track your progress.",
+      desc: "Monitor calories burned, workouts completed, and streaks maintained. See your transformation with weekly progress reports.",
       image: "notes"
     },
     {
       step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
+      title: "Get nutritional guidance.",
+      desc: "Access personalized meal plans and nutrition tips that complement your workouts. Fuel your transformation with smart eating.",
       image: "improve"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "What equipment do I need for Daily Burn workouts?",
+    "Can beginners use Daily Burn?",
+    "How does the free trial work?",
+    "Can I cancel my subscription anytime?",
+    "What types of workouts are available?"
   ];
 </script>
 
@@ -88,13 +88,13 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Transform your body<br />from home.
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      Stream personalized workouts that adapt to your fitness level. Get real-time nutritional guidance and join a community of 1M+ members achieving their goals.
     </p>
     <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
+      Start free trial
     </button>
   </section>
 
@@ -149,13 +149,13 @@
       <!-- Content -->
       <div class="w-full md:w-1/2 space-y-8">
         <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
+          Your fitness journey at a glance.<br />
+          Browse hundreds of streaming workouts, track your daily progress, and follow personalized nutrition plans. Everything you need to transform your body in one app.
         </h2>
         <div class="flex items-center justify-between pt-4">
           <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
             {@html PlayCircle}
-            Watch video
+            Watch demo
           </button>
           <div class="flex gap-2">
             <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
@@ -174,10 +174,10 @@
   <section class="py-16 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        Fitness that fits your life.
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        No more gym commutes. No more intimidating classes. Just effective, personalized workouts that adapt to your schedule and fitness level. Whether you're a beginner or advanced, Daily Burn meets you where you are and helps you reach your goals.
       </p>
     </div>
   </section>
@@ -201,13 +201,13 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "As a busy marketing director, I never had time for the gym. Daily Burn changed everything. I work out at 6am before my kids wake up, and I've lost 25 pounds in 4 months. The workouts are challenging but never intimidating."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=100&auto=format&fit=crop" alt="Sarah M." class="w-12 h-12 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Sarah M.</div>
+        <div class="text-gray-500 text-xs">Daily Burn Member</div>
       </div>
     </div>
   </section>
@@ -216,25 +216,25 @@
   <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">500+ workout videos.</h3>
+        <p class="text-gray-500 text-sm font-light">From yoga to HIIT, strength to dance. New classes added weekly to keep you motivated.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">15-60 minute classes.</h3>
+        <p class="text-gray-500 text-sm font-light">Workouts that fit your schedule. Quick morning sessions or full evening routines.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">Expert trainers.</h3>
+        <p class="text-gray-500 text-sm font-light">Certified instructors guide you through every move with proper form and motivation.</p>
       </div>
     </div>
   </section>
 
   <!-- How it works -->
-  <section class="py-20 px-6 max-w-7xl mx-auto">
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="workouts">
     <div class="mb-16 max-w-md">
       <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <p class="text-gray-600 font-light">Stream personalized workouts from your phone, tablet, or TV. Track your progress, follow nutrition guidance, and transform your body—all without leaving home.</p>
     </div>
 
     <div class="space-y-6">
@@ -314,16 +314,16 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- Variety Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Every workout style.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Yoga, HIIT, strength, cardio, dance, and more.</h2>
         </div>
-        <!-- Abstract Map Visual -->
+        <!-- Abstract Grid Visual -->
         <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
            <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
+              <!-- Simplified grid representation -->
               {#each Array(100) as _, i}
                 <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
               {/each}
@@ -331,16 +331,16 @@
         </div>
       </div>
 
-      <!-- Privacy Card -->
+      <!-- Accessibility Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Your data is safe with us.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We're built to protect your privacy by default.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Work out anywhere.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Stream on phone, tablet, TV, or laptop. Your gym goes where you go.</h2>
         </div>
-        <!-- Blurred Text Visual -->
+        <!-- Device Icons Visual -->
         <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
            <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
+             📱 💻 📺 ⌚ 🏃 💪 🧘 🔥
            </div>
         </div>
       </div>
@@ -350,64 +350,64 @@
   <!-- Pricing Section -->
   <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Fitness for everyone.</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">World-class trainers, unlimited streaming workouts, and personalized nutrition guidance—more affordable than a gym membership.</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Starter Plan -->
+      <!-- Basic Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col">
         <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
+        <h3 class="text-2xl font-medium mb-1">Basic</h3>
+        <p class="text-sm text-gray-500 mb-6">Start your fitness journey.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$14.95</span>
+          <span class="text-gray-400 text-sm">/mo</span>
+          <div class="text-[10px] text-primary-600 mt-1 font-medium">30-day free trial. Cancel anytime.</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            Access to 300+ beginner-friendly workout videos.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            Stream on any device—phone, tablet, or TV.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            Basic nutrition guides and meal planning tips.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Start free trial</button>
       </div>
 
-      <!-- Core Plan -->
+      <!-- Premium Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
         <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
         <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
+        <h3 class="text-2xl font-medium mb-1">Premium</h3>
+        <p class="text-sm text-gray-500 mb-6">Maximum results, maximum variety.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$24.95</span>
+          <span class="text-gray-400 text-sm">/mo</span>
+          <div class="text-[10px] text-primary-600 mt-1 font-medium">30-day free trial. Cancel anytime.</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
+            Full library of 500+ workouts across all fitness levels and styles.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
+            Personalized meal plans with real-time nutritional guidance.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+            Advanced progress tracking and adaptive workout recommendations.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Start free trial</button>
       </div>
     </div>
   </section>
@@ -435,18 +435,12 @@
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
         <div class="flex items-center gap-2">
-           <div class="relative w-5 h-5 flex items-center justify-center">
-              <div class="absolute w-full h-[1.5px] bg-black rotate-45"></div>
-              <div class="absolute w-full h-[1.5px] bg-black -rotate-45"></div>
-              <div class="absolute w-[1.5px] h-full bg-black"></div>
-              <div class="absolute w-full h-[1.5px] bg-black"></div>
-           </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
+           <span class="font-bold text-lg tracking-tight">Daily Burn</span>
         </div>
         
         <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
+          <a href="#workouts" class="hover:text-black">Workouts</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
           <a href="#" class="hover:text-black">Blog</a>
           <a href="#" class="hover:text-black">Terms & Conditions</a>
           <a href="#" class="hover:text-black">Privacy Policy</a>
@@ -460,9 +454,9 @@
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+        <p class="mb-2">Daily Burn is a fitness streaming platform providing on-demand workout videos and nutritional guidance. All workouts are designed by certified fitness professionals. Daily Burn does not provide medical advice, diagnosis, or treatment. Always consult with a healthcare provider before starting any new fitness program, especially if you have pre-existing health conditions.</p>
+        <p>Results may vary based on individual effort, consistency, and adherence to recommended nutrition and exercise guidelines. Individual results are not guaranteed. Subscription required for access to all features.</p>
+        <p class="mt-2">By providing your phone number, you agree to receive text messages from Daily Burn. Message and data rates may apply. Message frequency varies.</p>
       </div>
     </div>
   </footer>
